@@ -19,4 +19,13 @@ Git Command
     #Push New files
     git status
     git commit -m "commit name"
-    
+    git restore --stagged file name
+    git diff filename
+
+    # Branch 
+    git branch -- gives the current branch name
+    git branch "name" -> create new branch 
+    git checkout branch_name -> switch the branch name 
+    git add .
+    git commit -m "name"
+    git push origin branch_name
