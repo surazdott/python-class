@@ -6,3 +6,17 @@ Git Command
     git status --> Check the status of the files
     git add filename ---> add the files to stataging area
     git add . --> add all the files to stataging area
+    git commit -m "first commit" -->commit the files 
+    git remote -v --> check the link
+
+    # Create Project 
+    git remote add origin https://github.com/surazdott/python-class.git
+    git push origin -- push code in master class 
+    git push -u origin main
+
+    git pull origin master
+
+    #Push New files
+    git status
+    git commit -m "commit name"
+    
