@@ -1,0 +1,8 @@
+Git Command
+
+    git init --> initializes the respository
+    git config --global user.name "surazdott"
+    git config --global user.email "surajdatheputhe@gmail.com"
+    git status --> Check the status of the files
+    git add filename ---> add the files to stataging area
+    git add . --> add all the files to stataging area

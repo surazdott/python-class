@@ -1,0 +1,59 @@
+******** Formating *****
+
+String format
+	e.g
+	a = "Khudra"
+	b = "Online"
+	c = "Shopping"
+
+	print("Welcome {} {} {} ".format(a, b, c))
+	print(f"Welcome {a} {b} {c} ")
+
+
+
+a = 5 (Its is a statement)
+
+
+**** Function ****
+funtion and method are same
+
+
+**** Arguments *******
+ information that pass in function
+ 	e.g
+ 	def add(i, j, k)
+ 		print(5+5)
+
+ 	Keyword arguments
+ 	polymorphism
+
+ 	Variable Arguments
+ 		e.g
+ 			def add(*args)
+ 				print(5+5)
+
+ 			print(args)
+
+
+******* End Funtion
+
+print("Hello", end(" "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

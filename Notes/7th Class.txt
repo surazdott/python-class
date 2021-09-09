@@ -1,0 +1,13 @@
+**** Arguments and Value ****
+    Positional
+    Default
+
+******* Variable Type 
+ 	global vaiable = out side function
+ 	local varaible = inside function
+    if we have to use global varaible we need to declare global
+        e.g
+        salary = 10000
+        def raise_salary():
+            global salary
+            salary = salary + 10/100*salary

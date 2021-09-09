@@ -1,0 +1,129 @@
+2nd Class 26th August 2021
+
+*** Varaible check
+in() function check the value in varaible
+E.g 
+a = "I am fine"
+print('I' in a)
+True
+
+*** Not function
+not in() function is vice versa of in() function
+E.g
+print('I' not in a)
+False
+
+We can use not function in front of True False condition
+E.g
+print(not 'I' not in a)
+
+upper() function -> all string upper
+lower() function -> all string 
+capitalize() function -> first letter capilatize
+e.g
+print(a.upper)
+
+***** Replace Function
+replace()
+e.g
+a = "Suraj Dott"
+print(a.replace("Suraj", "Mr."))
+Mr.Dott
+
+e.g
+a = "Suraj Dott"
+a = a.replace("Suraj", "this")
+print(a)
+
+*** Length Function
+Count the charector of the string
+e.g
+a= "Hello World"
+print(len(a))
+
+*** Strip Function
+Remove all the first and last space in the string
+strip()
+
+a = "  Hello World  "
+print(len(a.strip()))
+
+*** Indexing
+indexing is starting with 0 and length is starting with 1
+Indexing makes slicing possible
+slice make break the string
+
+**** Slicing
+break the string value
+a = "Hello World"
+print(a[0])
+
+
+***** Negative Indexing
+Starting with -1 
+We use only positive indexing
+
+*** Range String
+a = "Hello World"
+print(a[0 : 5])
+
+if null in first value it takes first value e.g 0
+if null in last value it take last value of the string
+
+a = "Hello World"
+print(a[ : ])
+
+--- Skip the Value
+e.g
+a = "Hello World"
+print(a[1 : 4 : 2])
+* where 1 is first index 4 is last index and 2 is range of skipping value)
+e.g
+print(a[ : : 3])
+* where first index is null, last index is null(take full index) and 3 is postion of skiping value
+3 skip 2 value and take 3 rd position
+
+*** Fundamental Data Type
+does are not changed. eg. int..float and boolean
+
+
+Mutable value is not changable and unmutable is unchanged
+
+**** Immutability in Python
+if value exists, all the varaible point the same value
+python specific case
+
+e.g
+a = 10
+b = 10
+c = 10
+d = 10
+
+print(id(a))
+print(id(b))
+print(id(c))
+print(id(d))
+
+* is keyword needs to same value
+
+e.g
+a = 10
+b = 10
+c = 10
+d = 10
+
+print(id(a is b is c is d))
+
+
+
+
+
+
+
+
+
+
+
+
+
+

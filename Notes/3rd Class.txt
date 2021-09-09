@@ -1,0 +1,77 @@
+**** Type Casting ***
+a process of converting one value to another
+int change into float, string change into int
+int(), float() str(), bool()
+e.g = print(int(1.6)) == result: 1
+
+**** Advance Data Type *****
+List is collection of value
+list is homogeneous or heterogeneous in python
+list is mutable and can be add the value in same ID
+list is dymanic and can be change, append and remove
+e.g name = ['arjun', 'suraj', 'prakash']
+
+append method and insert method
+--- Append
+name = ['arjun', 'suraj', 'prakash']
+name.append('Ram')
+print(name)
+
+--- Insert
+name = ['arjun', 'suraj', 'prakash']
+name.insert(0, 'Moktan')
+print(name)
+
+-- Update list method 
+name[0] = "pandey"
+print(name)
+ans = arjun = pandey
+
+ways to empty list
+name = []
+name = [list]
+
+Remove Way 
+	name.remove('arjun') = its can remove any position value
+	name.pop() = it remove last value of list
+	name.pop(0) = remove specific value in list
+
+Clear List Value
+	name.clear() = which clear all the list values
+
+Reverse List Value
+	name.reverse() = which reserve all the values
+
+Sort List Values
+	name.sort() = which sort the values
+	string and int can not be compared
+
+Sallow copy and deep copy
+	name1 = ['arjun', 'suraj', 'prakash']
+	name2 = name1
+	name2[0] = 'pandey'
+	print(name2)
+
+	name1 = ['arjun', 'suraj', 'prakash']
+	name2 = name1.copy()
+	name2[0] = 'pandey'
+	print(name2)
+
+Set of value
+	set does not have duplicate value
+	intersection()
+	diffrence()
+
+	set is unorder, its show random value
+	add() function add value randomly
+	value could not be change
+	remove() function remove set value, if value does not exists, it show error
+	discard() remove value if exists otherwise it ignore
+	if set is empty we have denote with set() 
+		e.g 
+		a = {}
+		b = set()
+		print(type(a))
+		print(type(b))
+
+	set is not used widely but dictionary dict() is used widely

@@ -1,0 +1,52 @@
+***** Dictionary ****
+	Check the value of the key,
+	denoted by {}
+	we can pass the value in the key
+	key sould be always unique otherwise it replace the first value by the last value
+	multple value shoud be in couple 
+	dictionary is fastest data structure(data structure means how to store data efficeincy)
+	empty dictionary(e.g a = {})
+	in dictionary if data key is not exists, it create the new key
+
+	*items() fucntion print the key and value
+	*Nested Dictionary = dictionary under dictionary
+
+	// Eg
+	student_marks = {"arjun":0, "suraj":1, "prakash":10, "raju":-2}
+
+	# Update
+	student_marks["raju"] = 90
+	a = student_marks["raju"]
+	print(student_marks.keys())
+
+	# Create
+	student_marks["pandey"] = 10
+	print(student_marks)
+
+	# Values
+	print(student_marks.values())
+
+	# Complicated Data Structure
+	student_marks = {"arjun":[1, 2, 3], "suraj":1, "prakash":10, "raju":-2}
+	print(student_marks["arjun"][0])
+
+
+	Undefined Varaible 
+	a = None
+	None can be used only one time which can save memory space
+
+*** Range ***
+	check the range of the value
+	list is required for check the value
+	range is fast
+
+	e.g 
+	a = range(10)
+	print(list(a))
+
+	a = range(10, 20)
+	print(list(a))
+
+	a = range(2, 21, 2)
+	print(list(a))
+

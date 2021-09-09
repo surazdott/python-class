@@ -1,0 +1,32 @@
+*** File Handling ****
+    Read Files
+        read() -> all the content
+        realline() -> read single line
+        readlines() -> read all the lines
+    Create
+        f = open('file.text', 'w')
+    Open 
+        f = open('file.text', 'r')
+    Write
+        f = open('file.text', 'w')
+        f.write('This is good code')
+    Append,
+        f = open('file.text', 'a')
+        f.write('This is good code')
+    Close
+        f.closed()-> check the file wheather close or not
+        f.close() -> close the file
+
+    File Close
+        with open('file.text', 'w) as f
+            # file close authomatically
+            print(f.closed)
+        print('f.)
+
+
+***** Packges ******
+Collection of module is packages. Packages manages the files and module.
+
+****** Libary *****
+Collection is pakages is Libary
+

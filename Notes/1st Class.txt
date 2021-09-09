@@ -1,0 +1,12 @@
+Aug 25 
+Fundamental Data Type = Small Data Type e.g Boolean
+int = integer = non decimal data type
+float = decimal data type
+--Automatic Operation can be done in int and float
+type() -it finds the data type
+
+boolean = short form = bool
+
+id() = print the unique if
+
+uppercase variable used for Constant value e.g PI = 3.14
